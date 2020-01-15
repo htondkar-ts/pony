@@ -1,0 +1,4 @@
+@id=3c381ce5-a0b3-4ca4-a731-ab561e983ec9
+
+
+GET https://ponychallenge.trustpilot.com/pony-challenge/maze/{{ id }}
