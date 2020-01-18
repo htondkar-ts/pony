@@ -1,0 +1,19 @@
+.north {
+	border-top: 1px solid black;
+}
+
+.west {
+	border-left: 1px solid black;
+}
+
+.path-to-goal::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%, 0);
+	background-color: aqua;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
